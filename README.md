@@ -1,6 +1,6 @@
 # Single-Port Synchronous RAM using Verilog HDL
 
-## 📌 Project Overview
+## Project Overview
 
 This project implements a **parameterized single-port synchronous RAM (SPRAM)** using **Verilog HDL**.
 
@@ -10,7 +10,7 @@ A directed Verilog testbench is developed to verify the RAM functionality using 
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```text
                  Single-Port Synchronous RAM
@@ -32,7 +32,7 @@ A directed Verilog testbench is developed to verify the RAM functionality using 
 
 ---
 
-## ⚙️ Design Specifications
+## Design Specifications
 
 | Parameter           |        Value |
 | ------------------- | -----------: |
@@ -69,7 +69,7 @@ A directed Verilog testbench is developed to verify the RAM functionality using 
 
 ---
 
-## 🧠 Working Principle
+## Working Principle
 
 ### Write Operation
 
@@ -147,7 +147,7 @@ This ensures that:
 
 ---
 
-# 💻 RTL Implementation
+# RTL Implementation
 
 The RAM is implemented using a parameterized memory array:
 
@@ -172,7 +172,7 @@ This coding style is simple and suitable for synthesis and memory inference.
 
 ---
 
-# 🧪 Verification
+# Verification
 
 A directed Verilog testbench is used to verify the RAM.
 
@@ -188,9 +188,9 @@ The testbench uses:
 
 ---
 
-## ✅ Test Cases
+## Test Cases
 
-### TC1 — Single Write
+### TC1 - Single Write
 
 Writes one data value to a single memory address.
 
@@ -390,7 +390,7 @@ These patterns help verify different bit combinations across the complete 32-bit
 
 ---
 
-# 📊 Simulation Results
+# Simulation Results
 
 The simulation successfully verifies:
 
@@ -408,6 +408,7 @@ The simulation successfully verifies:
 ```
 
 Final simulation result:
+![Waveform 1](screenshots/waveform1.png)
 
 ```text
 ALL TEST CASES PASSED
@@ -416,7 +417,7 @@ ERROR COUNT = 0
 
 ---
 
-# ⏱️ Timing
+# Timing
 
 The RAM uses a **10 ns clock period** in the testbench.
 
@@ -444,7 +445,7 @@ This provides stable inputs before the DUT's active clock edge and helps avoid r
 
 ---
 
-# 🛠️ Tools Used
+# Tools Used
 
 * Verilog HDL
 * QuestaSim / ModelSim
@@ -455,7 +456,7 @@ This provides stable inputs before the DUT's active clock edge and helps avoid r
 
 ---
 
-# 📁 Project Structure
+# Project Structure
 
 ```text
 single-port-sync-ram/
@@ -474,7 +475,7 @@ single-port-sync-ram/
 
 ---
 
-# 🎯 Key Learning Outcomes
+# Key Learning Outcomes
 
 * Understanding single-port RAM architecture
 * Synchronous read and write operations
@@ -493,7 +494,7 @@ single-port-sync-ram/
 
 ---
 
-# 🚀 Possible Future Improvements
+# Possible Future Improvements
 
 The project can be extended with:
 
@@ -510,7 +511,7 @@ The project can be extended with:
 
 ---
 
-# 👨‍💻 Project Type
+# Project Type
 
 **RTL Design + Functional Verification**
 
