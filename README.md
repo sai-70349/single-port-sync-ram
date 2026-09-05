@@ -12,7 +12,7 @@ A directed Verilog testbench is developed to verify the RAM functionality using 
 
 ## Architecture
 
-![SINGLE PORT RAM ARCHITECTURE](single_port_ram_blockdiagram.png)
+![SINGLE PORT RAM ARCHITECTURE](screenshots/single_port_ram_blockdiagram.png)
 
 ---
 
