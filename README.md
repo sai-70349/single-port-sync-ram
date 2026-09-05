@@ -12,23 +12,7 @@ A directed Verilog testbench is developed to verify the RAM functionality using 
 
 ## Architecture
 
-```text
-                 Single-Port Synchronous RAM
-
-                         +-------------------+
-                         |                   |
-        CLK -----------> |                   |
-        CS ------------> |                   |
-        WE ------------> |      RAM Array    |
-        ADDR ----------> |                   |
-        DATA_IN -------> |                   |
-                         |                   |
-        DATA_OUT <-------|                   |
-                         +-------------------+
-
-                         WE = 1 → WRITE
-                         WE = 0 → READ
-```
+![SINGLE PORT RAM ARCHITECTURE](single_port_ram_blockdiagram.png)
 
 ---
 
@@ -408,7 +392,12 @@ The simulation successfully verifies:
 ```
 
 Final simulation result:
+
 ![Waveform 1](screenshots/waveform1.png)
+![Waveform 2](screenshots/waveform2.png)
+![Waveform 3](screenshots/waveform3.png)
+![Waveform 4](screenshots/waveform4.png)
+
 
 ```text
 ALL TEST CASES PASSED
